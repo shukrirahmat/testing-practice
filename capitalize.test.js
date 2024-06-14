@@ -13,7 +13,7 @@ test("white space", () => {
 })
 
 test("null", () => {
-    expect(capitalize(null)).toBeNull();
+    expect(capitalize(null)).toBe("");
 })
 
 test("non-string", () => {
